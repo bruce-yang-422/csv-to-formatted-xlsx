@@ -1,0 +1,42 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging and build output
+build/
+dist/
+release/
+*.egg-info/
+*.spec.bak
+
+# Runtime input, output, logs, and temporary files
+in/*.csv
+in/*.CSV
+out/*.xlsx
+out/*.XLSX
+logs/*.log
+*.tmp
+~$*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
