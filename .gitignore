@@ -5,11 +5,17 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.hypothesis/
+.tox/
+.nox/
 .coverage
+.coverage.*
+coverage.xml
 htmlcov/
 
 # Virtual environments
 .venv/
+.venv-*/
 venv/
 env/
 
@@ -19,6 +25,8 @@ dist/
 release/
 *.egg-info/
 *.spec.bak
+*.manifest
+*.pkg
 
 # Runtime input, output, logs, and temporary files
 in/*.csv
@@ -27,6 +35,7 @@ out/*.xlsx
 out/*.XLSX
 logs/*.log
 *.tmp
+*.tmp.xlsx
 ~$*
 
 # Editors and operating systems
@@ -40,3 +49,5 @@ Desktop.ini
 .env
 .env.*
 !.env.example
+.python-version
+pip-log.txt

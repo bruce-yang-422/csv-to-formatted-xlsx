@@ -1,0 +1,28 @@
+* text=auto
+
+# Source and project configuration use LF for consistent diffs.
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.spec text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Files intended for Windows users use native CRLF line endings.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.txt text eol=crlf
+
+# Generated documents, executables, and media must never be newline-normalized.
+*.exe binary
+*.dll binary
+*.ico binary
+*.xlsx binary
+*.xlsm binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
