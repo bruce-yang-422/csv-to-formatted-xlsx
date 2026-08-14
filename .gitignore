@@ -23,6 +23,7 @@ env/
 build/
 dist/
 release/
+*.zip
 *.egg-info/
 *.spec.bak
 *.manifest

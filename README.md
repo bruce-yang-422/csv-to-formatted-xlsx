@@ -1,5 +1,10 @@
 # CSV to Formatted XLSX
 
+[![Version](https://img.shields.io/badge/version-v0.1.0-0969da)](https://github.com/bruce-yang-422/csv-to-formatted-xlsx/releases)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)](#支援格式)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](./LICENSE)
+
 將 Looker Studio／Data Studio 匯出的 CSV 批次轉換成適合 Microsoft Excel 與樞紐分析使用的 XLSX。
 
 本工具會保護條碼、貨號、SKU 等識別碼，避免 Excel 自動轉成科學記號、刪除前導零，或破壞超過 15 位的長數字。同時會把日期、年月、年、月及數值轉成樞紐分析可辨識的型別。
